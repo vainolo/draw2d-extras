@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extras
+Bundle-SymbolicName: com.vainolo.draw2d.extras
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: Arieh "Vainolo" Bibliowicz
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.draw2d,
+ com.vainolo.jdraw2d.eclipse,
+ com.vainolo.vainolibraries.eclipse
+Export-Package: com.vainolo.draw2d.extras
