@@ -70,7 +70,8 @@ public class SmartLabelFigure extends FlowPage {
     Dimension lineDimensions = TextUtilities.INSTANCE.getStringExtents(textFlow.getText(), getFont());
     double area = lineDimensions.width() * lineDimensions.height();
     double width = Math.sqrt(area / ratio) * ratio;
-    return getPreferredSize((int) width, -1);
+    invalidate();
+    return getPreferredSize((int) width, -1).getCopy();
   }
 
   public void setHorizontalAlignment(HorizontalAlignment hAlignment) {
