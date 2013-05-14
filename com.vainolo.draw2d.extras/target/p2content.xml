@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.vainolo.draw2d.extras' version='0.0.1.201304290826' singleton='false'>
+    <update id='com.vainolo.draw2d.extras' range='[0.0.0,0.0.1.201304290826)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Extras'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Arieh &quot;Vainolo&quot; Bibliowicz'/>
+      <property name='maven-groupId' value='com.vainolo.draw2d.extras'/>
+      <property name='maven-artifactId' value='com.vainolo.draw2d.extras'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.vainolo.draw2d.extras' version='0.0.1.201304290826'/>
+      <provided namespace='osgi.bundle' name='com.vainolo.draw2d.extras' version='0.0.1.201304290826'/>
+      <provided namespace='java.package' name='com.vainolo.draw2d.extras' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='org.eclipse.draw2d' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.vainolo.jdraw2d.eclipse' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.vainolo.vainolibraries.java.eclipse' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.vainolo.draw2d.extras' version='0.0.1.201304290826'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.vainolo.draw2d.extras&#xA;Bundle-Version: 0.0.1.201304290826&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
