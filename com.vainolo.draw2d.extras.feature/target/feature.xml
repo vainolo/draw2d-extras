@@ -2,7 +2,7 @@
 <feature
       id="com.vainolo.draw2d.extras.feature"
       label="Feature"
-      version="0.0.1.201304290826"
+      version="0.0.1.201305280540"
       provider-name="VAINOLO">
 
    <description url="http://www.example.com/description">
@@ -21,7 +21,7 @@
          id="com.vainolo.draw2d.extras"
          download-size="4"
          install-size="6"
-         version="0.0.1.201304290826"
+         version="0.0.1.201305231530"
          unpack="false"/>
 
 </feature>
