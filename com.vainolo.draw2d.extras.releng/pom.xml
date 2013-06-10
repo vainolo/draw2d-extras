@@ -36,5 +36,6 @@
 	<modules>
 		<module>../com.vainolo.draw2d.extras</module>
 		<module>../com.vainolo.draw2d.extras.feature</module>
+		<module>../com.vainolo.draw2d.extras.releng.p2</module>
 	</modules>
 </project>
